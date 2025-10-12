@@ -1,0 +1,52 @@
+12.10.2025
+na svem starem github uctu jsem asi PRED PUL ROKEM publikoval prvni verzi, toto strihace/prehravace videi
+adresa je zde https://github.com/Pavek-Martin/mvp_2_dokument/tree/main
+toto je dalsi verze z nakolika pridavkama a predelavkama 
+
+
+https://sdilej.cz/32098894/ffmpeg-a-mpv.rar
+zde je poreba stahnout archiv "ffmpeg_a_mpv.rar", dale pak sledujte screenshoty v adresari
+"dulezite_systemova_promenna_PATH" a nastavte systemovou promenou "PATH" podle tohoto navodu
+pripadne staci nakopirovat soubory "mpv.exe" a "ffmpeg.exe" primo do adresare
+kde jsou davkove soubory z priponou "bat" tak jako je to na scrennshotu "obr_1.jpg" v adresari "jpg"
+
+dale, ( pokud ho jiz nemate z prvni verze ) tak z tototo odkazu https://sdilej.cz/30775003/king-skate-2018-.mp4
+stahnete samotni soubor "King Skate (2018).mp4" a opet ho nakopirujte do adresare "King_Skate_2018_verze-2"
+jak je to na screenshotu "obr_1.jpg"
+
+nyni je jiz mozne poustet samotne davkove soubory ( pripona souboru "bat" )
+zacnete tremy soubory z prefixem "strih_" tyto soubory vytvori v adreasri "King_Skate_2018_verze-2"
+fragmenty ze souboru "King Skate (2018).mp4" ktera potom jeste spoji do jednoho celku a vysledkem je pak
+treba soubor z nazvem "spojene_videa_dalsi_sceny.mp4"
+soubory ktere zacinaji na "filelist_all_" nepujdou spustit hned ale az po spusteni vsech souboru
+pro strich videa, vse ostatni by melo fungovat ihned
+nove ale v teto ve verzi 2 je nejlepsi sputit soubor "all.bat" ktery udela uplne vsechno najednou,
+teda vsechno co se tyce strihu videi pomoci "ffmpeg.exe"
+paklize chcete jen prehravat hlavni video "King Skate (2018).mp4" tak jsou k tomu urceny
+soubory z prefixem "play_", "scale_", "osd_", "_play_all", "pokus_"
+
+vsechny soubory "filelist" slouzi pak pouze pomucka pro utilitu "ffmpeg.exe" a obsahuji informace 
+o jednotlivych fragmentech videi ktere se pak maji spojovat dohromady v jednotlive vystupni celky
+
+
+dulezite:
+jiz jsem zminil na screenshotech v adreasari "jpg" je potreba dodzet verzi
+utilit "mpv.exe" a "ffmpeg.exe" stalo se mi totiz ze po upgrade ma vyssi verzi "mpv.exe"
+prestali nektere soubory ktere drive prahravali fragmenty souboru "King Skate (2018).mp4"
+fungovat, blize jsem to nezkoumal ale predpokladam ze v nove verzi autor programu pravdepodobne
+upravil nazvy nekterych parametru a tudis jim nova verze programu jiz prestala rozumet
+
+u utility "ffmpeg.exe" jsem jinou verzi nezkousel takze zde nevim jak by se to chovalo po upgrade
+doporucuji proto pouzit verze programu ktere byly pouzity zde, samozdejme oba programy
+lze stahnout z internetu v aktualni verzi ale nemohu zarucit jejich spravne fungovani
+jeste nutno dotat ze oba tyto programy existuji take ve verzi pro Linux, tam jsem ale nezkousel
+screenshoty opet v aresari "jpg"
+
+
+v podstate nechteny "bonus":
+pred par dnama jsem na "youtube" na kanale "Linux Days", zaregistroval podobne video 
+od pana Lukáše Bařinky z Pražské ČVUT, kde popisuje neco velmi podobneho jako mam ja
+ale ve verzi pro Linux, takže "děkuju" pánovi z "youtube" za "zájem" vo "mojí" praci
+ukazka zde... https://www.youtube.com/watch?v=-ymnyXhvYek
+
+autor
