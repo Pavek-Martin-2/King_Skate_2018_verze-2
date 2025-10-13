@@ -2,8 +2,10 @@
 
 title krasavice vyrezi videa
 
-set mpvpl="C:\Program Files (x86)\mpv-x86_64\mpv.com"
-set file="King Skate (2018).mp4"
+set filename="King Skate (2018).mp4"
+
+REM set mpvpl="C:\Program filenames (x86)\mpv-x86_64\mpv.com"
+set mpvpl="mpv.exe"
 
 set f="yes"
 REM set f="no"
@@ -39,20 +41,20 @@ set a9="00:18:39.200"
 set b9="00:18:40.370"
 
 
-%mpvpl% --fullscreen=%f% --mute=%m% --speed=%sp% --start=%a1% --end=%b1% %file%
-%mpvpl% --fullscreen=%f% --mute=%m% --speed=%sp% --start=%a2% --end=%b2% %file%
-%mpvpl% --fullscreen=%f% --mute=%m% --speed=%sp% --start=%a3% --end=%b3% %file%
-%mpvpl% --fullscreen=%f% --mute=%m% --speed=%sp% --start=%a4% --end=%b4% %file%
-%mpvpl% --fullscreen=%f% --mute=%m% --speed=%sp% --start=%a5% --end=%b5% %file%
-%mpvpl% --fullscreen=%f% --mute=%m% --speed=%sp% --start=%a6% --end=%b6% %file%
-%mpvpl% --fullscreen=%f% --mute=%m% --speed=%sp% --start=%a7% --end=%b7% %file%
+%mpvpl% --fullscreen=%f% --mute=%m% --speed=%sp% --start=%a1% --end=%b1% %filename%
+%mpvpl% --fullscreen=%f% --mute=%m% --speed=%sp% --start=%a2% --end=%b2% %filename%
+%mpvpl% --fullscreen=%f% --mute=%m% --speed=%sp% --start=%a3% --end=%b3% %filename%
+%mpvpl% --fullscreen=%f% --mute=%m% --speed=%sp% --start=%a4% --end=%b4% %filename%
+%mpvpl% --fullscreen=%f% --mute=%m% --speed=%sp% --start=%a5% --end=%b5% %filename%
+%mpvpl% --fullscreen=%f% --mute=%m% --speed=%sp% --start=%a6% --end=%b6% %filename%
+%mpvpl% --fullscreen=%f% --mute=%m% --speed=%sp% --start=%a7% --end=%b7% %filename%
 
 set sp="0.33"
 REM "0.33" je minimum
-%mpvpl% --fullscreen=%f% --mute=%m% --speed=%sp% --start=%a8% --end=%b7% %file%
+%mpvpl% --fullscreen=%f% --mute=%m% --speed=%sp% --start=%a8% --end=%b7% %filename%
 
 set sp="0.5"
-%mpvpl% --fullscreen=%f% --mute=%m% --speed=%sp% --start=%a9% --end=%b9% %file%
+%mpvpl% --fullscreen=%f% --mute=%m% --speed=%sp% --start=%a9% --end=%b9% %filename%
 
 pause
 

@@ -2,7 +2,8 @@
 
 set filename="King Skate (2018).mp4"
 
-set mpvpl="C:\Program Files (x86)\mpv-x86_64\mpv.com"
+REM set mpvpl="C:\Program Files (x86)\mpv-x86_64\mpv.com"
+set mpvpl="mpv.exe"
 
 REM set m="no"
 set m="yes"
@@ -33,6 +34,6 @@ echo scena 1
 %mpvpl% --fullscreen=%r% --window-scale=%l% --osd-level=%osd% --osd-font-size=%osdf% --mute=%m% --speed=%d% --start=%t% --end=%e% %filename%
 REM zobrazuje informace v levim hornim rohu
 
-sleep 3
-exit
+pause
+
 

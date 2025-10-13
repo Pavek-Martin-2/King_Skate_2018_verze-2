@@ -3,7 +3,8 @@
 set filename="King Skate (2018).mp4"
 REM set filename="C:\Users\DELL\Videos\Ruzne\King_Skate_2018"
 
-set mpvpl="C:\Program Files (x86)\mpv-x86_64\mpv.com"
+REM set mpvpl="C:\Program Files (x86)\mpv-x86_64\mpv.com"
+set mpvpl="mpv.exe"
 
 REM set m="no"
 set m="yes"

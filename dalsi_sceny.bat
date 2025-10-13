@@ -2,7 +2,9 @@
 title King dalsi sceny
 
 set filename="King Skate (2018).mp4"
-set mpvpl="C:\Program Files (x86)\mpv-x86_64\mpv.com"
+
+REM set mpvpl="C:\Program Files (x86)\mpv-x86_64\mpv.com"
+set mpvpl="mpv.exe"
 
 set fs="yes"
 set mu="yes"

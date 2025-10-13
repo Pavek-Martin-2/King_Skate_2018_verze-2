@@ -2,7 +2,8 @@
 
 set filename="King Skate (2018).mp4"
 
-set mpvpl="C:\Program Files (x86)\mpv-x86_64\mpv.com"
+REM set mpvpl="C:\Program Files (x86)\mpv-x86_64\mpv.com"
+set mpvpl="mpv.exe"
 
 REM set m="no"
 set m="yes"
@@ -29,6 +30,5 @@ REM paklize bude parametr "--window-scale=2" tzn. 2x normalini velikost okna a p
 REM bude se prehravat ve zvetsenem okne ale jakmile se da "--fullscreen=on" vsechno ostatni se anuluje
 REM a pouzije se vzdy "--fullscreen=on" bez ohled na hodnou nebo pritomnost param. "--window-scale="
 
-sleep 3
-exit
+pause
 

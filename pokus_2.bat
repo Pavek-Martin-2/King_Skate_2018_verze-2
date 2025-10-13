@@ -2,7 +2,9 @@
 title pokus cislo 1
 
 set filename="King Skate (2018).mp4"
-set mpvpl="C:\Program Files (x86)\mpv-x86_64\mpv.com"
+
+REM set mpvpl="C:\Program Files (x86)\mpv-x86_64\mpv.com"
+set mpvpl="mpv.exe"
 
 
 set t="00:00:31.000"

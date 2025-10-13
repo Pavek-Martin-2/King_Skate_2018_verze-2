@@ -24,7 +24,10 @@ REM odkaz na stazeni je v souboru "video_url.txt" plus nejaky moje legislativni 
 REM tady je potreba nastavit cestu kde je nainslovenej prehravac "mpv.com" pro windows
 REM ja to mam takhle a zavolani promenny %mpvpl% se normalne potom v cmd.exe pusti prehravac 
 REM a plus samozdrejme prislusny parametry knemu, promenou se dal %mpvpl% jako mpv player, zkratka
-set mpvpl="C:\Program Files (x86)\mpv-x86_64\mpv.com"
+
+REM set mpvpl="C:\Program Files (x86)\mpv-x86_64\mpv.com"
+set mpvpl="mpv.exe"
+
 REM tady nedavat mpv.exe ale dat mpv.com jinak nevypisuje v okne podrobnosti o prehravani
 REM ale pouze udela radek echo, pred radkem %mpvpl%, exe varianta je spis uz asi vic "okonova" bych rek
 REM to znamena asi min "ukecana"
